@@ -1,0 +1,111 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Xin chào
+    - Chào buổi sáng
+    - Chào buổi trưa
+    - Chào buổi tối
+    - Ê
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Tạm biệt
+    - Hẹn gặp lại
+    - pp
+    - Bai
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ùa
+    - đúng
+    - tất nhiên
+    - được
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - vui
+    - cũng được
+    - tốt
+    - tuyệt
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: today_calendar
+  examples: |
+    - Hôm nay có gì
+    - tôi cần phải làm gì
+    - nay làm gì
+    - công việc ngày hôm nay
+    
+- intent: inquire_time
+  example: |
+    - hôm nay [thứ] (date) mấy
+    - hôm nay [ngày] (date) mấy
+    - hôm nay [tháng] (date) mấy
+    - [thời gian] (time) [hôm nay] (date)
+    - nay là [ngày] (date) nào

@@ -1,0 +1,30 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- today_calendar
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- get_info
+responses:
+  utter_greet:
+  - text: Xin chào, bạn cần gì
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+slot:
+  date:
+    type: any
+    influence_conversation: true
+
+#action:
+
+
+
+
